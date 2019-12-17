@@ -74,6 +74,7 @@ fn testnum_part2(d: &Vec<i64>) -> bool {
         last_num = v;
     }
 
+    // Account for last two digits in number
     if num_consecutive == 2 {
         found_adj = true;
     }
